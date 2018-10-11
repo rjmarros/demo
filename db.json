@@ -169,35 +169,7 @@
                     "value": 0.1979999989271164,
                     "is_number": true
                 },
-                {
-                    "timestamp": "2018-10-04T22:26:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 81.4000015258789,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:26:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 0.17100000381469727,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:26:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 0.0820000022649765,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:28:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 328.0,
-                    "is_number": true
-                },
-                {
+                        {
                     "timestamp": "2018-10-04T22:28:00",
                     "encoding": null,
                     "byte_array": null,
@@ -211,34 +183,7 @@
                     "value": 0.1979999989271164,
                     "is_number": true
                 },
-                {
-                    "timestamp": "2018-10-04T22:28:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 81.4000015258789,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:28:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 0.17100000381469727,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:28:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 0.0820000022649765,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:30:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 328.0,
-                    "is_number": true
-                },
+           
                 {
                     "timestamp": "2018-10-04T22:30:00",
                     "encoding": null,
@@ -292,48 +237,7 @@
                     "value": 200.0,
                     "is_number": true
                 },
-                {
-                    "timestamp": "2018-10-04T22:26:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 1500.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:26:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 150.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:26:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 1200.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:26:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 50.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:28:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 200.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:28:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 1500.0,
-                    "is_number": true
-                },
+          
                 {
                     "timestamp": "2018-10-04T22:28:00",
                     "encoding": null,
@@ -355,34 +259,7 @@
                     "value": 50.0,
                     "is_number": true
                 },
-                {
-                    "timestamp": "2018-10-04T22:30:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 200.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:30:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 1500.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:30:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 150.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:30:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 1200.0,
-                    "is_number": true
-                },
+           
                 {
                     "timestamp": "2018-10-04T22:30:00",
                     "encoding": null,
@@ -450,27 +327,7 @@
                     "value": 1500.0,
                     "is_number": true
                 },
-                {
-                    "timestamp": "2018-10-04T22:28:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 150.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:28:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 1200.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:28:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 50.0,
-                    "is_number": true
-                },
+             
                 {
                     "timestamp": "2018-10-04T22:30:00",
                     "encoding": null,
@@ -478,34 +335,7 @@
                     "value": 200.0,
                     "is_number": true
                 },
-                {
-                    "timestamp": "2018-10-04T22:30:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 1500.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:30:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 150.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:30:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 1200.0,
-                    "is_number": true
-                },
-                {
-                    "timestamp": "2018-10-04T22:30:00",
-                    "encoding": null,
-                    "byte_array": null,
-                    "value": 50.0,
-                    "is_number": true
-                }
+           
             ]
         },
   
