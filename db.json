@@ -1,14 +1,661 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "type_num": 22,
+    "sensors": [
+        {
+            "sensor_num": 0,
+            "type_val": "Application Specific Integer",
+            "id_num": 10,
+            "read_interval_num": 12,
+            "tag": 16777217,
+            "type_num": 4085,
+            "id_val": "Generic MODBUS",
+            "data": [
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1,
+                    "is_number": true
+                }
+            ]
+        },
+        {
+            "sensor_num": 1,
+            "type_val": "Application Specific Float",
+            "id_num": 10,
+            "read_interval_num": 12,
+            "tag": 50332161,
+            "type_num": 4088,
+            "id_val": "Generic MODBUS",
+            "data": [
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 35.44342041015625,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": -119.26136016845703,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 43355.5234375,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 35.44342041015625,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": -119.26136016845703,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 43355.5234375,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 35.44342041015625,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": -119.26136016845703,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 43355.5234375,
+                    "is_number": true
+                }
+            ]
+        },
+        {
+            "sensor_num": 2,
+            "type_val": "Application Specific Integer",
+            "id_num": 10,
+            "read_interval_num": 12,
+            "tag": 16779265,
+            "type_num": 4085,
+            "id_val": "Generic MODBUS",
+            "data": [
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 40686,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 40686,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 40686,
+                    "is_number": true
+                }
+            ]
+        },
+        {
+            "sensor_num": 3,
+            "type_val": "Application Specific Float",
+            "id_num": 10,
+            "read_interval_num": 12,
+            "tag": 100665857,
+            "type_num": 4088,
+            "id_val": "Generic MODBUS",
+            "data": [
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 328.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 0.1940000057220459,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 0.1979999989271164,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 81.4000015258789,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 0.17100000381469727,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 0.0820000022649765,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 328.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 0.1940000057220459,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 0.1979999989271164,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 81.4000015258789,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 0.17100000381469727,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 0.0820000022649765,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 328.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 0.1940000057220459,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 0.1979999989271164,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 81.4000015258789,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 0.17100000381469727,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 0.0820000022649765,
+                    "is_number": true
+                }
+            ]
+        },
+        {
+            "sensor_num": 4,
+            "type_val": "Application Specific Float",
+            "id_num": 10,
+            "read_interval_num": 12,
+            "tag": 83891713,
+            "type_num": 4088,
+            "id_val": "Generic MODBUS",
+            "data": [
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 200.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1500.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 150.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1200.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 50.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 200.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1500.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 150.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1200.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 50.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 200.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1500.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 150.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1200.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 50.0,
+                    "is_number": true
+                }
+            ]
+        },
+        {
+            "sensor_num": 5,
+            "type_val": "Application Specific Float",
+            "id_num": 10,
+            "read_interval_num": 12,
+            "tag": 83894273,
+            "type_num": 4088,
+            "id_val": "Generic MODBUS",
+            "data": [
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 200.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1500.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 150.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1200.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 50.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 200.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1500.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 150.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1200.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 50.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 200.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1500.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 150.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 1200.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 50.0,
+                    "is_number": true
+                }
+            ]
+        },
+        {
+            "sensor_num": 6,
+            "type_val": "Application Specific Float",
+            "id_num": 10,
+            "read_interval_num": 12,
+            "tag": 83896833,
+            "type_num": 4088,
+            "id_val": "Generic MODBUS",
+            "data": [
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 220.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 30.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 50.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 120.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 25.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 220.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 30.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 50.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 120.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 25.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 220.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 30.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 50.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 120.0,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 25.0,
+                    "is_number": true
+                }
+            ]
+        },
+        {
+            "sensor_num": 7,
+            "type_val": "Application Specific Float",
+            "id_num": 10,
+            "read_interval_num": 12,
+            "tag": 16790529,
+            "type_num": 4088,
+            "id_val": "Generic MODBUS",
+            "data": [
+                {
+                    "timestamp": "2018-10-04T22:26:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 43355.5234375,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:28:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 43355.5234375,
+                    "is_number": true
+                },
+                {
+                    "timestamp": "2018-10-04T22:30:00",
+                    "encoding": null,
+                    "byte_array": null,
+                    "value": 43355.5234375,
+                    "is_number": true
+                }
+            ]
+        }
+    ],
+    "type_val": "Tagged Data History Message"
 }
